@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+</head>
+<body>
+
+    <div class="wrapper">
+    
+        <div class="header">
+            <h2>Battle Royale</h2>
+            <p>Choose your hero!</p>
+        </div>
+
+        <div class="heroes">
+            <a href="#" onclick="startGame('rogue')">
+                <img src="img/heroes/rogue.jpg" alt="rogue">
+                <div>
+                  <h3>Rogue</h3>
+                  <p>They use energy as resource and the primary stat is agility which gives them a chance to do double the damage. Rogues deal small amounts of damage but they can attack multiple times in one turn.</p>
+                </div>
+            </a>
+            <a href="#" onclick="startGame('mage')">
+                <img src="img/heroes/mage.jpg" alt="mage">
+                <div>
+                    <h3>Mage</h3>
+                    <p>The mage uses mana as resource, intellect is the primary stat and they use both of them to cast spells. They use spells to do a lot of damage</p>
+                </div>
+            </a>
+            <a href="#" onclick="startGame('hunter')">
+                <img src="img/heroes/hunter.jpg" alt="hunter">
+                <div>
+                    <h3>Hunter</h3>
+                    <p>They use focus as a resource and their primary stat is agility. The hunter uses bows and arrows to do ranged attacks which can do double damage</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="actions"></div>
+
+        <div class="enemies"></div>
+    </div>
+
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+</body>
+</html>
