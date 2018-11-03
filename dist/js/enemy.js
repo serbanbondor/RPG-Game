@@ -1,5 +1,5 @@
 class Enemy {
-    constructor(enemyType, health,mana, strength, agility, intellect, armor) {
+    constructor(enemyType, health, mana, strength, agility, intellect, armor) {
         this.enemyType = enemyType;
         this.health = health;
         this.mana = mana;
