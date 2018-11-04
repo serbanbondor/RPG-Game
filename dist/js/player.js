@@ -1,5 +1,5 @@
 class Player {
-    constructor(classType, health, energy, mana, focus, strength, agility, intellect, armor) {
+    constructor(classType, health, energy, mana, focus, strength, agility, intellect, defence) {
         this.classType = classType;
         this.health = health;
         this.energy = energy;
@@ -8,6 +8,6 @@ class Player {
         this.strength = strength;
         this.agility = agility;
         this.intellect = intellect;
-        this.armor = armor;
+        this.defence = defence;
     }
 }
