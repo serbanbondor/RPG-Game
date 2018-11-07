@@ -59,7 +59,7 @@ const searchEnemy = () => {
             enemy = enemy00;
             getEnemy.innerHTML = '<img src="img/enemies/' + enemy.enemyType.toLowerCase() + '.jpg" alt="' + 
             enemy.enemyType + '" class="img-avatar"><div style="width: 140px;"><h3>' + enemy.enemyType + '</h3><p class="enemy-health">Health: ' + 
-            enemy.health + '</p><p class="enemy-mana">Mana: ' + enemy.mana + '</p><p>Strength: ' + enemy.strength + '</p><p>Defence: ' + 
+            enemy.health + '</p><p class="enemy-mana">Mana: ' + enemy.mana + '</p><p>Agility: ' + enemy.agility + '</p><p>Defence: ' + 
             enemy.defence + '</p>';
             break;
         case 1:
